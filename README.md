@@ -60,4 +60,21 @@ Cory has a website dedicated to BASIC with a section for VB v7+ with a lot of gr
 
 ---
 
-Have a suggestion for any other projects that should be added to this list? Please let us know.
+## Discussion
+
+Discussion pertaining to VB.NET takes place in the form of issues in this repo, under the Discussion section.
+
+If you want to suggest a feature, discuss current design notes or proposals, etc., please begin the discussion in the Discussion section.
+
+It is beneficial to have language ideas discussed nearby to where the design artifacts are. Comment threads that are short and stay on topic are much more likely to be read. If you leave comment number fifty, chances are that only a few people will read it. To make discussions easier to navigate and benefit from, please observe a few rules of thumb:
+
+- Discussion should be relevant to Visual Basic .NET language and related technologies. Issues that are not will be summarily closed.
+- Choose a descriptive title for the issue, that clearly communicates the scope of discussion.
+- Stick to the topic of the issue title. If a comment is tangential, start a new issue and link back.
+- If a comment goes into detail on a subtopic, also consider starting a new issue and linking back.
+- Is your comment useful for others to read, or can it be adequately expressed with an emoji reaction to an existing comment?
+
+## VB.NET Language Implementation
+
+The reference implementation of the Visual Basic .NET language can be found in the [Roslyn repository](https://github.com/dotnet/roslyn). Until recently, that was also where language design artifacts were tracked. Please allow a little time as we move over active proposals.
+
