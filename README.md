@@ -40,6 +40,28 @@ A VB Razor for ASP.NET Core 3.1 (MVC and Razor Pages). For .NET Core 2.2 version
 
 Although not a much more than a proof-of-concept at this stage, it is a great start on creating an independent WebAssembly compiler for VB.
 
+> NOTE: since the commit [9466098](https://github.com/biocad-cloud/data.ts/tree/9466098937eb30f80f77d3b17b6f37878d047170), wasm compiler module for VB.NET language was move to a new individual project, and the new compiler project called [``VanillaBasic``](https://github.com/dotvanilla/vanilla).
+
+### Category: VisualBasic.NET Machine Learning & Data Science Library
+
+#### 1. [LibOptimization](https://github.com/tomitomi3/LibOptimization)
+
+LibOptimization is a numerical optimization library that simplifies optimization using C#, VisualBasic.Net and other .NET Framework languages. This library is used by people who need optimization such as science (eg physics), engineering, sound, finance, statistics, medical care, structural design etc.
+
+#### 2. [sciBASIC](https://github.com/xieguigang/sciBASIC)
+
+A framework for developing the general data science application in VB.NET language. The sciBASIC framework provides a set of library module api for:
+
+1. math algorithm
+2. data mining and machine learning
+3. data visualization
+4. I/O for data with multiple general common used file formats in data science area
+5. general application framework for develop console pipeline application.
+
+#### 3. [Darwinism](https://github.com/xieguigang/Darwinism)
+
+``Darwinism`` project is a high performance parallel computing toolkit for VisualBasic.NET data science application running on unix mono/.net 5.
+
 ## OSS that is VB "Friendly"
 
 The following projects ("pocket communities") that, although aren't built in or specificaly for VB, are generally positive toward the VB developer.
