@@ -40,6 +40,8 @@ A VB Razor for ASP.NET Core 3.1 (MVC and Razor Pages). For .NET Core 2.2 version
 
 Although not a much more than a proof-of-concept at this stage, it is a great start on creating an independent WebAssembly compiler for VB.
 
+> NOTE: since the commit [9466098](https://github.com/biocad-cloud/data.ts/tree/9466098937eb30f80f77d3b17b6f37878d047170), wasm compiler module for VB.NET language was move to a new individual project, and the new compiler project called [``VanillaBasic``](https://github.com/dotvanilla/vanilla).
+
 ### Category: VisualBasic.NET Machine Learning & Data Science Library
 
 #### 1. [LibOptimization](https://github.com/tomitomi3/LibOptimization)
