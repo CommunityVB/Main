@@ -9,11 +9,11 @@ The simples way to contribute to open source are the things that are needed that
 - Leverage the project and if you encounter problems...
 - Report Issues.
 - Engage in Discussions (if enabled)... if not, utilize Issues to start conversation.
-- If a project doesn't currently have CI, assist.
-- If a project doesn't currently deploy as a nuget package, assist.
+- If a project doesn't currently have *CI*, assist.
+- If a project doesn't currently deploy as a *nuget* package, assist.
 - Documentation, documentation, documentation!
 
-The number one thing to keep in mind regarding all of the above is that the answer to your suggestions, issues, and/or contributions may be met with a "No".  Try not to take it negatively; remember that there may be plans in place that they are already engaged in that may either duplicate or invalidate your contribution.  Which takes me to the second "rule" to keep in mind... engage positively in all of your interactions - no one, including yourself, want to interact with those that start off a conversation negatively.  Remember flies... honey... vinegar.
+The number one thing to keep in mind regarding all of the above is that the answer to your suggestions, issues, and/or contributions may be met with a "No".  Try not to take it negatively; remember that there may be plans in place that they are already engaged in that may either duplicate or invalidate your contribution.  Which takes me to the second "rule" to keep in mind... engage positively in all of your interactions - no one, including yourself, want to interact with those that start off a conversation negatively.  Remember... flies... honey... vinegar.
 
 ## Create a Successful Issue.
 
@@ -35,7 +35,7 @@ Also some repos have a general rules in places that new features (*pull requests
 
 In many repos, there are generally *issues* that have been flagged as being "up for grabs".  You can comment on these letting everyone know that you are considering contributing to those.
 
-Once you submit the *pull request*, be sure to keep current with it so that if any request for changes or other feedback is provided that you can respond to them in a timely manner.  Doing so can increase the likelyhood of getting the request accepted.
+Once you submit the *pull request*, be sure to keep current with it so that if any request for changes or other feedback is provided that you can respond to them in a timely manner.  Doing so can increase the likely-hood of getting the request accepted.
 
 As a side note, if you are familiar with anyone on the team and they asked you to specifically "break a rule", be sure to *tag* them in the *pull request*.
 
@@ -51,7 +51,18 @@ It is not possible (unless you are on the primary team) to contribute code direc
 
 Although not absolutely necessary, it kind of makes sense to create a developmental branch for your changes.  By doing this, you can keep the main branch up to date with the source repo (see below) and keep your code separate.  It is also recommended that you make your branches such that your code changes are as small as possible so that they can be more easily accepted (see below).
 
-(TODO: Walkthrough)
+**Using GitHub Desktop**
+
+- Verify that you have the correct repo (yours) selected for the *Current repository* dropdown.
+- Click on the *Current branch* dropdown to display more details.
+- Click the *New branch* button.
+- In the *Create a branch* dialog, enter a meaningful name for the branch.
+- Click *Create branch*.
+- You will then want to *publish* the branch to your repo.
+
+**Using Git (CLI)**
+
+(TODO)
 
 ### "Atomic"
 
@@ -96,7 +107,9 @@ When the only reason why it's "3 commits ahead" is that you utilized Github.com 
 I submit that it would make more sense to cleanly "refresh" your main repo to *match* the upstream.  To do so...
 
 ```
-   git fetch -all
+   git fetch --all
    git checkout your_branch
    git reset --hard upstream/their_branch
 ```
+
+Where *your_branch* is the branch that is in your repo that you want to "bring up to date* to match *their_branch* in the original repo.
