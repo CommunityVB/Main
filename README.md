@@ -68,7 +68,8 @@ The following projects ("pocket communities") that, although aren't built in or 
 
 Note that some will have documentation/samples specifically for VB while others simply ensure that their projects work regardless of what development language utilizes them. 
 
-- [NAudio - Audio and MIDI](https://github.com/naudio/NAudio)
+- [FluentFTP](https://github.com/robinrodricks/FluentFTP): An FTP and FTPS client for .NET & .NET Standard, optimized for speed. Provides extensive FTP commands, File uploads/downloads, SSL/TLS connections, Automatic directory listing parsing, File hashing/checksums, File permissions/CHMOD, FTP proxies, FXP support, UTF-8 support, Async/await support, Powershell support and more.
+- [NAudio](https://github.com/naudio/NAudio): Audio and MIDI library for .NET.
 
 ## Resources
 
