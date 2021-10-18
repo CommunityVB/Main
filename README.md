@@ -62,7 +62,7 @@ A framework for developing the general data science application in VB.NET langua
 
 ``Darwinism`` project is a high performance parallel computing toolkit for VisualBasic.NET data science application running on unix mono/.net 5.
 
-## OSS that is VB "Friendly"
+## **VB Welcome Here** (OSS that is VB friendly...)
 
 The following projects ("pocket communities") that, although aren't built in or specificaly for VB, are generally positive toward the VB developer.
 
@@ -70,6 +70,7 @@ Note that some will have documentation/samples specifically for VB while others 
 
 - [FluentFTP](https://github.com/robinrodricks/FluentFTP): An FTP and FTPS client for .NET & .NET Standard, optimized for speed. Provides extensive FTP commands, File uploads/downloads, SSL/TLS connections, Automatic directory listing parsing, File hashing/checksums, File permissions/CHMOD, FTP proxies, FXP support, UTF-8 support, Async/await support, Powershell support and more.
 - [NAudio](https://github.com/naudio/NAudio): Audio and MIDI library for .NET.
+- [DynamicAudioNormalizer](https://github.com/lordmulder/DynamicAudioNormalizer): Dynamic Audio Normalizer is a library for advanced audio normalization purposes. It applies a certain amount of gain to the input audio in order to bring its peak magnitude to a target level (e.g. 0 dBFS). However, in contrast to more "simple" normalization algorithms, the Dynamic Audio Normalizer dynamically re-adjusts the gain factor to the input audio. This allows for applying extra gain to the "quiet" sections of the audio while avoiding distortions or clipping the "loud" sections. In other words: The Dynamic Audio Normalizer will "even out" the volume of quiet and loud sections, in the sense that the volume of each section is brought to the same target level. Note, however, that the Dynamic Audio Normalizer achieves this goal without applying "dynamic range compressing". It will retain 100% of the dynamic range within each "local" region of the audio file.
 
 ## Resources
 
