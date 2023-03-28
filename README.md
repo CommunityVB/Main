@@ -34,7 +34,7 @@ See [Community.VisualBasic](https://github.com/DualBrain/Community.VisualBasic) 
 
 ### [Vazor](https://github.com/VBAndCs/Vazor)
 
-A VB Razor for ASP.NET Core 3.1 (MVC and Razor Pages). For .NET Core 2.2 version use.
+A VB Razor framework for ASP.NET Core 6 (MVC and Razor Pages).
 
 ### [VB to WebAssembly Compiler (Proof-of-Concept)](https://github.com/biocad-cloud/data.ts/releases/tag/v0.5.136-alpha)
 
